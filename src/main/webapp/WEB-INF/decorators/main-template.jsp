@@ -8,7 +8,10 @@
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	  	<meta http-equiv="refresh" content="600"/>
 	    <title><dec:title default="Think Big Consultancy"/></title>
-	    <link rel="stylesheet" type="text/css" href="/consultancy/resources/css/styles.css"  />
+	    <link rel="stylesheet" type="text/css" href="resources/css/style.css"  />
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css"  />
+        <link rel="stylesheet" type="text/css" href="resources/css/flexslider.css"  />
+        <link rel="stylesheet" type="text/css" href="resources/css/swipebox.css"  />
         <dec:head />
         
 	</head>
@@ -26,19 +29,16 @@
 					<jsp:include page="/WEB-INF/views/common/nav.jsp"/>
 			    </td>
 			</tr>  
-			<tr>
-	         	<td align="left"> 
-                    <jsp:include page="/WEB-INF/views/common/sidebar.jsp"/>
-	        	</td>
+			 <tr>
 	        	<td align="center">
 	            	<dec:body />
 	         	</td>
 	        </tr>
-            <tr> 
+            <%-- <tr> 
 	            <td colspan="2">                   
 					<jsp:include page="/WEB-INF/views/common/footer.jsp"/>
 				</td>
-			</tr>
+			</tr> --%>
 	    </table>   		
 	</body>
 </html>
